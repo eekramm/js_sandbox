@@ -555,3 +555,110 @@
 // Dates & Times End
 
 ////////////////////////////////////////////////////////
+
+// If Statements and Comparison Operators
+
+// if(something is true) {
+//     do something
+// } else {
+//     do something else
+// }
+
+// const id = 100;
+
+// EQUAL TO
+// if (id == 100) {
+//   console.log("correct");
+// } else {
+//   console.log("incorrect");
+// }
+
+// NOT EQUAL TO
+// if (id != 101) {
+//   console.log("correct");
+// } else {
+//   console.log("incorrect");
+// }
+
+// EQUAL TO VALUE AND TYPE
+// if (id === 100) {
+//   console.log("correct");
+// } else {
+//   console.log("incorrect");
+// }
+
+// NOT EQUAL TO VALUE AND TYPE
+// if (id !== 100) {
+//   console.log("correct");
+// } else {
+//   console.log("incorrect");
+// }
+
+// Test if undefined
+// if (typeof id !== "undefined") {
+//   console.log(`The ID is ${id}`);
+// } else {
+//   console.log("No ID");
+// }
+
+// GREATER OF LESS THAN
+// if (id >= 200) {
+//   console.log("correct");
+// } else {
+//   console.log("incorrect");
+// }
+
+// if (id <= 200) {
+//   console.log("correct");
+// } else {
+//   console.log("incorrect");
+// }
+
+// IF ELSE
+// const color = "yellow";
+
+// if (color === "red") {
+//   console.log("Color is red");
+// } else if (color === "blue") {
+//   console.log("Color is blue");
+// } else {
+//   console.log("Color is not red or blue");
+// }
+
+// LOGICAL OPERATORS
+
+// const name = "Steve";
+// const age = 45;
+
+// AND &&
+// if (age >= 0 && age <= 12) {
+//   console.log(`${name} is a child`);
+// } else if (age >= 13 && age <= 19) {
+//   console.log(`${name} is a teenager`);
+// } else {
+//   console.log(`${name} is an adult`);
+// }
+
+// OR ||
+// if (age < 16 || age > 65) {
+//   console.log(`${name} can not run in race`);
+// } else {
+//   console.log(`${name} is registered for the race`);
+// }
+
+// TERNARY OPERATOR
+// short had way of doing conditionals
+// ? if what preceeds is true (this is your if statement)
+// : else do what follows (this is your else)
+// statement bellow if id is equal to 100 return correct else return incorrect
+// console.log(id === 100 ? "correct" : "incorrect");
+
+// WITHOUT BRACES
+// if statements work in javascript with out braces
+// braces are recommended
+// if (id === 100) console.log("correct");
+// else console.log("incorrect");
+
+// If Statements and Comparison Operators Ends
+
+////////////////////////////////////////////////////////
