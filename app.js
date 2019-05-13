@@ -647,7 +647,7 @@
 // }
 
 // TERNARY OPERATOR
-// short had way of doing conditionals
+// short hand way of doing conditionals
 // ? if what preceeds is true (this is your if statement)
 // : else do what follows (this is your else)
 // statement bellow if id is equal to 100 return correct else return incorrect
@@ -660,5 +660,53 @@
 // else console.log("incorrect");
 
 // If Statements and Comparison Operators Ends
+
+////////////////////////////////////////////////////////
+
+// Switches
+
+// const color = "red";
+
+// switch (color) {
+//   case "red":
+//     console.log("Color is red");
+//     break;
+//   case "blue":
+//     console.log("Color is blue");
+//     break;
+//   default:
+//     console.log("Color is not red or blue");
+//     break;
+// }
+
+// let day;
+
+// switch (new Date().getDay()) {
+//   case 0:
+//     day = "Sunday";
+//     break;
+//   case 1:
+//     day = "Monday";
+//     break;
+//   case 2:
+//     day = "Tuseday";
+//     break;
+//   case 3:
+//     day = "Wednesday";
+//     break;
+//   case 4:
+//     day = "Thurday";
+//     break;
+//   case 5:
+//     day = "Friday";
+//     break;
+//   case 6:
+//     day = "Saturday";
+//     break;
+// }
+
+// console.log(`Today is ${day}`);
+
+// Switches End
 
 ////////////////////////////////////////////////////////
