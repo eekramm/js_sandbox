@@ -518,3 +518,40 @@
 // Object Literals End
 
 ////////////////////////////////////////////////////////
+
+// Dates & Times
+
+// let val;
+
+// Instantiating the date (this will give todays date)
+// const today = new Date();
+// different was to change the date
+// refer to documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+// let birthday = new Date("9-10-1981 11:25:00");
+// birthday = new Date("September 10 1981");
+// birthday = new Date("9/10/1981");
+
+// Get
+// val = today.getMonth(); // Currently May (Which is 5) but returns 4 because this is 0 based
+// val = today.getDate(); // today is May 12th retruns 12
+// val = today.getDay(); // today is Sundauy returns 0 this is 0 based
+// val = today.getFullYear(); // returns the Year
+// val = today.getHours(); // Its 9:35 returns 21
+// val = today.getMinutes(); // Its 9:36 returns 36
+// val = today.getSeconds(); // retruns the seconds (will change when reload)
+// val = today.getMilliseconds(); // retruns Milli seconds
+// val = today.getTime(); // gives a time stamp (the amount of seconds that have passed in current year)
+
+// Set
+// birthday.setMonth(2);
+// birthday.setDate(12);
+// birthday.setFullYear(1985);
+// birthday.setHours(3);
+// birthday.setMinutes(30);
+// birthday.setSeconds(25);
+
+// console.log(birthday);
+
+// Dates & Times End
+
+////////////////////////////////////////////////////////
