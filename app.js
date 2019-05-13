@@ -710,3 +710,52 @@
 // Switches End
 
 ////////////////////////////////////////////////////////
+
+// Function Declarations and Expressions
+
+// FUNCTION DECLARATIONS
+// function greet(firstName = "John", lastName = "Doe") {
+//   console.log("Hello");
+//   return "Hello " + firstName + " " + lastName;
+// }
+
+// console.log(greet());
+
+//FUNCTION EXPRESION
+// const square = function(x = 3) {
+//   return x * x;
+// };
+
+// console.log(square());
+
+// IMMIDIATLY INVOKABLE FUNCTION EXPRESSION - IIFEs
+// (function() {
+//   console.log("IIFE Ran..");
+// })();
+
+// (function(name) {
+//   console.log("Hello " + name);
+// })("Eythan");
+
+// PROPERTY METHODS
+// when a function is put inside of an object it is called a method
+// const todo = {
+//   add: function() {
+//     console.log("Add todo..");
+//   },
+//   edit: function(id) {
+//     console.log(`Edit todo ${id}`);
+//   }
+// };
+
+// todo.delete = function() {
+//   console.log("Delete todo...");
+// };
+
+// todo.add();
+// todo.edit(22);
+// todo.delete();
+
+// Function Declarations and Expressions
+
+////////////////////////////////////////////////////////
